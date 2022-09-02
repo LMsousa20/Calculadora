@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculadora </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header id="titulo">
+            <table>
+                <td>
+                    <p>CALCULADORA</p>
+                </td>
+                <td><input type="button" value="_" /></td>
+                <td><input type="button" value="D" /></td>
+                <td><input type="button" value="X" /></td>
+            </table>
+        </header>
+        <input id="result" type="text" />
+        <table>
+            <tr>
+                <td colspan="2"><input id="back" type="button" class="efect" value="BCSPC" onclick="back()" /></td>
+                <td><input id="ce" class="efect" type="button" value="+ -" onclick="inverter()" /></td>
+                <td><input id="c" class="efect" type="button" value="C" onclick="clean()" /></td>
+            </tr>
+            <tr>
+                <td><input id="b1" class="efect" type="button" value="1" onclick="setando(1)" /></td>
+                <td><input id="b2" class="efect" type="button" value="2" onclick="setando(2)" /></td>
+                <td><input id="b3" class="efect" type="button" value="3" onclick="setando(3)" /></td>
+                <td><input id="divi" class="efect" type="button" value="/" onclick="exec('/')" /></td>
+            </tr>
+            <tr>
+                <td><input id="b4" class="efect" type="button" value="4" onclick="setando(4)" /></td>
+                <td><input id="b5" class="efect" type="button" value="5" onclick="setando(5)" /></td>
+                <td><input id="b6" class="efect" type="button" value="6" onclick="setando(6)" /></td>
+                <td><input id="multi" class="efect" type="button" value="X" onclick="exec('*')" /></td>
+            </tr>
+            <tr>
+                <td><input id="b7" class="efect" type="button" value="7" onclick="setando(7)" /></td>
+                <td><input id="b8" class="efect" type="button" value="8" onclick="setando(8)" /></td>
+                <td><input id="b9" class="efect" type="button" value="9" onclick="setando(9)" /></td>
+                <td><input id="men" class="efect" type="button" value="-" onclick="exec('-')" /></td>
+            </tr>
+            <tr>
+                <td><input id="p" class="efect" type="button" value="." onclick="setando('.')" /></td>
+                <td><input id="b0" class="efect" type="button" value="0" onclick="setando(0)" /></td>
+                <td><input id="res" class="efect" type="button" value="=" onclick="resultando()" /></td>
+                <td><input id="mais" class="efect" type="button" value="+" onclick="exec('+')" /></td>
+            </tr>
+        </table>
+    </div>
+    <div id="extra">
+        <h3>Calculadoras Anteriores</h3>
+                <a href="./antigas/index.html">Calculadora 1</a> <p>Fiz todinha</p>
+                <a href="./antigas/calc2.html">Calculadora 2</a> <p>Copie a primeiro e mudei o CSS</p>
+                <a href="./antigas/calc3.html">Calculadora 3</a> <p>Quis enfeitar de mais</p>
+                <a href="./antigas/calc4.html">Calculadora 4</a> <p>peguei uma pronta e fiz o Css</p>
+                <a href="./antigas/calc5.html">Calculadora 5</a> <p>peguei uma pronta e fiz o Css</p>
+    </div>
+    <script src="script.js"></script>
+</body>

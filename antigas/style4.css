@@ -1,0 +1,94 @@
+@font-face {
+    font-family: seven;
+    src: url(Seven.ttf);
+}
+
+#titulo {
+    margin-bottom: 5px;
+    background-color: rgba(202, 202, 202, 0.445);
+    color: rgb(0, 0, 0);
+    width: 218px;
+
+
+}
+
+input {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: 5px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+
+input:hover {
+    transition: 300ms;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6,
+#b7,
+#b8,
+#b9,
+#b0 {
+    background-color: rgb(252, 252, 252);
+    color: black;
+}
+
+header input {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+
+div {
+    border: 1px solid rgb(0, 0, 0);
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.315);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#back {
+    width: 103px;
+
+
+}
+
+#result {
+    width: 208px;
+    background-color: rgba(224, 224, 224, 0.603);
+    color: black;
+    text-align: right;
+    font-family: seven;
+    font-size: 50px;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.14ebf6b206705fadcd08982fe6bb93a6?rik=lrcjUlx7Z9GFkg&riu=http%3a%2f%2fevasion-online.com%2fimagearticle%2f2016%2f05%2fWallpaper-16.jpg&ehk=bwGnAPwD3Q4cEQuUubjvIbZFbuu1pozlQGXuo%2fRDjH8%3d&risl=&pid=ImgRaw&r=0);
+    background-size: 100% 100%;
+}
+
+footer table,
+footer td {
+    border: 2px solid white;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-display: block;
+    background-color: rgba(240, 248, 255, 0.212);
+}

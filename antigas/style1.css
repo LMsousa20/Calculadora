@@ -1,0 +1,59 @@
+
+        input {
+            width: 50px;
+            height: 50px;
+            font-style: italic;
+            font-size: 25px;
+            border-radius: 5px;
+            border: 1px solid;
+        }
+
+        header input {
+            width: 25px;
+            height: 25px;
+            font-style: italic;
+            font-size: 15px;
+        }
+
+        #titulo {
+            border: 2px solid rgb(34, 34, 189);
+            width: 218px;
+            margin-bottom: 5px;
+            background-color: rgb(34, 34, 189);
+            color: white;
+
+        }
+
+        div {
+            border: 2px solid rgb(34, 34, 189);
+            width: 220px;
+            background-color: rgb(185, 185, 185);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #back {
+            width: 103px;
+            color: red;
+        }
+
+        #result {
+            width: 203px;
+            margin-bottom: 2px;
+            margin-left: 4px;
+
+        }
+
+        body{
+            background-image: url(https://www.fonewalls.com/wp-content/uploads/2020/02/iPad-Wallpaper-HD-417.jpg);
+            background-size: 100% 200%;
+        }
+
+       footer table, footer td{
+            border: 2px solid white;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            font-display: block;
+            background-color: rgba(240, 248, 255, 0.212);
+        }

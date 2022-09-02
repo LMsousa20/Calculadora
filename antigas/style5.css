@@ -1,0 +1,91 @@
+@font-face {
+    font-family: seven;
+    src: url(Seven.ttf);
+}
+
+input {
+    width: 50px;
+    height: 35px;
+    font-size: 25px;
+    border: 5px;
+    background-color: rgba(228, 227, 227, 0.493);
+    border-radius: 15px;
+    
+}
+
+a:active,
+a:hover,
+a {
+    color: white;
+}
+
+input:hover {
+    transition: 300ms;
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 50px;
+    height: 35px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+header input {
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}
+
+#titulo {
+
+    width: 218px;
+    margin-bottom: 5px;
+    background-color: rgb(202, 202, 202);
+    color: white;
+
+}
+
+form table {
+    border: 1px solid rgb(0, 0, 0);
+    width: 220px;
+    background-color: rgba(0, 0, 0, 0.74);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+#back {
+    width: 103px;
+
+}
+
+#display {
+    width: 243px;
+    height: 123px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    background-color: rgb(224, 224, 224);
+    text-align: right;
+    font-family: seven;
+}
+
+body {
+    transition-delay: 300ms;
+    background-image: url(https://th.bing.com/th/id/OIP.ktx8R5LKdsxpmQJQFSComwHaF1?pid=ImgDet&rs=1);
+    background-size: 100% 200%;
+}
+
+footer table,
+footer td {
+    border: 2px solid white;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-display: block;
+    background-color: rgba(240, 248, 255, 0.212);
+}

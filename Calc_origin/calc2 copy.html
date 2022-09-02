@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculadora </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header id="titulo">
+            <table>
+                <td>
+                    <p>CALCULADORA</p>
+                </td>
+                <td><input type="button" value="_" /></td>
+                <td><input type="button" value="D" /></td>
+                <td><input type="button" value="X" /></td>
+            </table>
+        </header>
+        <input id="result" type="text" />
+        <table>
+            <tr>
+                <td colspan="2"><input id="back" type="button" value="BCSPC" onclick="back()" /></td>
+                <td><input id="ce" type="button" value="+ -" onclick="inverter()"/></td>
+                <td><input id="c" type="button" value="C" onclick="clean()" /></td>
+            </tr>
+            <tr>
+                <td><input id="b1" type="button" value="1" onclick="setando(1)"/></td>
+                <td><input id="b2" type="button" value="2" onclick="setando(2)"/></td>
+                <td><input id="b3" type="button" value="3" onclick="setando(3)"/></td>
+                <td><input id="divi" type="button" value="/" onclick="exec('/')" /></td>
+            </tr>
+            <tr>
+                <td><input id="b4" type="button" value="4" onclick="setando(4)"/></td>
+                <td><input id="b5" type="button" value="5" onclick="setando(5)"/></td>
+                <td><input id="b6" type="button" value="6" onclick="setando(6)"/></td>
+                <td><input id="multi" type="button" value="X" onclick="exec('*')"  /></td>
+            </tr>
+            <tr>
+                <td><input id="b7" type="button" value="7" onclick="setando(7)" /></td>
+                <td><input id="b8" type="button" value="8" onclick="setando(8)"/></td>
+                <td><input id="b9" type="button" value="9" onclick="setando(9)"/></td>
+                <td><input id="men" type="button" value="-" onclick="exec('-')" /></td>
+            </tr>
+            <tr>
+                <td><input id="p" type="button" value="." onclick="setando('.')"/></td>
+                <td><input id="b0" type="button" value="0" onclick="setando(0)"/></td>
+                <td><input id="res" type="button" value="=" onclick="resultando()"  /></td>
+                <td><input id="mais" type="button" value="+" onclick="exec('+')" /></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
