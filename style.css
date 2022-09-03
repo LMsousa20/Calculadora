@@ -41,6 +41,7 @@ header input {
 }
 
 div {
+    
     border: 1px solid rgb(0, 0, 0);
     width: 220px;
     background-color: rgb(202, 202, 202);
@@ -71,6 +72,7 @@ body {
     align-items: center;
     height: 80vh;
     flex-direction: column;
+    padding-top: 100px;
 }
 
 #extra {
