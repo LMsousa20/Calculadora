@@ -34,14 +34,29 @@ function armazenamento() {
 }
 
 function inverter() {
-    dispay = '-' + dispay;
+    dispay = ( Number(dispay)*-1);
     document.getElementById('result').value = dispay;
 }
 
 function resultando() {
-    final = n1 + calc + dispay;
+    if(calc === '+'){
+        final = parseFloat(n1) + parseFloat(dispay);
+    }
+
+    if(calc === '-'){
+        final = parseFloat(n1) - parseFloat(dispay);
+    }
+
+    if(calc === '*'){
+        final = parseFloat(n1) * parseFloat(dispay);
+    }
+
+    if(calc === '/'){
+        final = parseFloat(n1) / parseFloat(dispay);
+    }
+    
     console.log(final)
-    dispay = eval(final)
+    dispay = final;
     document.getElementById('result').value = dispay;
     document.getElementById('extra').style.bottom = '0px';
     }
